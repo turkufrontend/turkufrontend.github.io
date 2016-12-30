@@ -1,0 +1,145 @@
+---
+
+---
+
+@import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
+
+$brand-dark-blue : #283648;
+$brand-light-blue : #5098c5;
+$brand-red : #e74a5d;
+$brand-gray : #d1d5dd;
+
+$brand-blue-lighter : lighten($brand-light-blue,20);
+$brand-red-lighter : lighten($brand-red,20);
+$brand-gray-lighter : lighten($brand-gray,10);
+$blue-lightest : lighten($brand-blue-lighter,15);
+
+$white : #fff;
+$gray-lightest : #fafafa;
+
+$spacer : 3rem;
+
+@mixin cta($c) {
+  color:$c;
+  border:2px solid $c;
+  padding:$spacer/3;
+  display: inline-block;
+  border-radius: 4px;
+  &:hover,&:focus {
+    color:$white;
+    background: $c;
+    text-decoration: none;
+  }
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color:$brand-light-blue;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: 900;
+}
+
+header {
+  height:400px;
+  max-height: 40vh;
+  background: url("../images/tku.jpeg") no-repeat;
+  background-size:cover;
+  background-position: 0 ;
+  border-top:3px solid $brand-red;
+
+    .header-txt {
+      color:$brand-blue-lighter;
+      text-align: center;
+      .logo {
+      }
+  }
+
+}
+
+.content {
+  @extend .section;
+  text-align: center;
+  background: $gray-lightest;
+  font-size: 1.5rem;
+  border-bottom:1px solid $brand-gray;
+}
+
+.join {
+  @extend .section;
+  .member {
+    color:$brand-red;
+    margin-bottom:$spacer;
+    .cta {
+      @include cta($brand-red);
+    }
+  }
+  .business {
+    color:$brand-light-blue;
+    .cta {
+      @include cta($brand-light-blue);
+    }
+  }
+}
+
+.social {
+  @extend .section;
+  text-align: center;
+  color:$white;
+  background: $brand-blue-lighter;
+  fill: $white;
+  span {
+    display: inline-block;
+    width:50px;
+    margin:2rem;
+    a:hover {
+      opacity: 0.8;
+    }
+  }
+  a {
+    color: $white;
+  }
+}
+
+.events {
+  @extend .section;
+  color:$brand-dark-blue;
+  h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.25rem;
+  }
+}
+
+.footer {
+  @extend .section;
+  background: $brand-dark-blue;
+}
+
+
+// helpers
+
+.section {
+  padding:$spacer 0;
+}
+
+.vertical-center {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-align : center;
+  -webkit-align-items : center;
+  -moz-box-align : center;
+  -ms-flex-align : center;
+  align-items : center;
+
+}

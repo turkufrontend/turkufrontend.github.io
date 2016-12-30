@@ -1,0 +1,22 @@
+{
+  "name": "turku-front-end",
+  "version": "1.0.0",
+  "description": "turku frontend website",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkufrontend/turkufrontend.github.io.git"
+  },
+  "author": "mkaski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turkufrontend/turkufrontend.github.io/issues"
+  },
+  "homepage": "https://github.com/turkufrontend/turkufrontend.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

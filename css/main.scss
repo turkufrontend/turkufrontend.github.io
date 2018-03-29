@@ -225,7 +225,8 @@ header {
     max-height: 200px;
     text-align: center;
     img {
-      width: 150px;
+      max-width: 150px;
+      width: 100%
     }
   }
 }

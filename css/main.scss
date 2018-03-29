@@ -37,6 +37,7 @@ $spacer : 3rem;
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  overflow-x:hidden; // dirty fix
 }
 
 a {

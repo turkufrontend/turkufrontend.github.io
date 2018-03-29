@@ -47,6 +47,10 @@ h1,h2,h3,h4,h5 {
   font-weight: 900;
 }
 
+h1 {
+  margin-bottom: $spacer/1.5;
+}
+
 header {
   height:400px;
   max-height: 40vh;
@@ -157,6 +161,9 @@ header {
 
     .icons {
       padding: 10px 0;
+      a:hover, a:focus {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -165,11 +172,7 @@ header {
   @extend .section;
 
   .cta-container {
-    padding: $spacer 0;
-  }
-
-  .cta {
-    @include cta($brand-red);
+    padding: $spacer/2 0;
   }
 
   p {
@@ -178,14 +181,23 @@ header {
 
   .developer {
     color: $brand-red;
+    .cta {
+      @include cta($brand-red);
+    }
   }
 
   .company {
     color: $brand-light-blue;
+    .cta {
+      @include cta($brand-light-blue);
+    }
   }
 
   .student {
     color: $brand-green;
+    .cta {
+      @include cta($brand-green);
+    }
   }
 
 }

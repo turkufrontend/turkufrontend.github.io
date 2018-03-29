@@ -124,6 +124,12 @@ header {
   }
 }
 
+.icons {
+  a:hover {
+    opacity: 0.8;
+  }
+}
+
 .events {
   @extend .section;
   color:$brand-dark-blue;
@@ -231,7 +237,7 @@ header {
 // helpers
 
 .section {
-  padding:$spacer 0;
+  padding:$spacer+0.5 0;
 }
 
 .vertical-center {

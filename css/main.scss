@@ -10,6 +10,7 @@ $brand-dark-blue : #283648;
 $brand-light-blue : #5098c5;
 $brand-red : #e74a5d;
 $brand-gray : #d1d5dd;
+$brand-green: #339933;
 
 $brand-blue-lighter : lighten($brand-light-blue,20);
 $brand-red-lighter : lighten($brand-red,20);
@@ -46,6 +47,10 @@ h1,h2,h3,h4,h5 {
   font-weight: 900;
 }
 
+h1 {
+  margin-bottom: $spacer/1.5;
+}
+
 header {
   height:400px;
   max-height: 40vh;
@@ -57,7 +62,12 @@ header {
     .header-txt {
       color:$brand-blue-lighter;
       text-align: center;
+      height: 100%;
       .logo {
+        height: 100%;
+        img {
+          height: 100%;
+        }
       }
   }
 
@@ -92,7 +102,7 @@ header {
   @extend .section;
   text-align: center;
   color:$white;
-  background: $brand-blue-lighter;
+  background: $brand-dark-blue;
   fill: $white;
   span {
     display: inline-block;
@@ -101,6 +111,9 @@ header {
     a:hover {
       opacity: 0.8;
     }
+  }
+  svg {
+    fill: $white;
   }
   a {
     color: $white;
@@ -114,6 +127,94 @@ header {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 1.25rem;
+  }
+  .upcoming-manual {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.team {
+  @extend .section;
+
+  h1 {
+    text-align: center;
+  }
+
+  .organizer {
+    margin: auto;
+    text-align: center;
+
+    h4 {
+      font-weight: 300;
+    }
+
+    img {
+      padding: $spacer;
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .job-title {
+      padding: 10px 0;
+    }
+
+    .icons {
+      padding: 10px 0;
+      a:hover, a:focus {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.who {
+  @extend .section;
+
+  .cta-container {
+    padding: $spacer/2 0;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .developer {
+    color: $brand-red;
+    .cta {
+      @include cta($brand-red);
+    }
+  }
+
+  .company {
+    color: $brand-light-blue;
+    .cta {
+      @include cta($brand-light-blue);
+    }
+  }
+
+  .student {
+    color: $brand-green;
+    .cta {
+      @include cta($brand-green);
+    }
+  }
+
+}
+
+.partners {
+  padding: $spacer;
+
+  h1 {
+    text-align: center;
+  }
+
+  .logo-container {
+    max-height: 200px;
+    img {
+      width: 100%;
+    }
   }
 }
 

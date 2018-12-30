@@ -9,6 +9,13 @@ $(document).ready(function(){
                         '</div>'
                     );
                 }
+            } else {
+                $(".upcoming").append(
+                    '<div>' +
+                    data.results[i]["date"] + ' <a href="' + data.results[i]["url"] + '">' + data.results[i]["name"] + '</a>' +
+                    '</div>'
+                );
+                $('.upcoming-manual').hide();
             }
         }
     });

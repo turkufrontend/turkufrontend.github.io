@@ -29,6 +29,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
 
 sass:
     sass_dir: ./node_modules/bootstrap/scss

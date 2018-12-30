@@ -4,3 +4,4 @@ _site
 .DS_Store
 utils
 node_modules
+vendor

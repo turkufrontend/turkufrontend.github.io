@@ -8,3 +8,5 @@ layout: speakers
 # Hall of Fame
 
 In the heart of our activities are the talented developers and designers who join our events to share their knowledge and experience.
+
+[Back to homepage](/)

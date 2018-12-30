@@ -8,3 +8,5 @@ layout: home
 Turku &hearts; Frontend is the #1 community for frontend developers and designers in Turku.
 
 We organize monthly meetups, hackathons, programming competitions and other gatherings to promote developer culture. Our doors are open for everyone: beginners, curious, hobbyists, professionals and beyond.
+
+Our meetups would not be possible without our [amazing speakers](/speakers)

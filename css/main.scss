@@ -144,6 +144,23 @@ header {
       width: 100%;
     }
   }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .upcoming-events {
+    list-style: none;
+    width: 20%;
+    margin: auto;
+    font-size: 24px;
+    margin-bottom: 1em;
+  }
 }
 
 .team {
@@ -303,8 +320,4 @@ header {
   -ms-flex-align : center;
   align-items : center;
 
-}
-
-.upcoming-events {
-  list-style: none;
 }

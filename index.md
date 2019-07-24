@@ -8,4 +8,4 @@ We organize monthly meetups, hackathons, programming competitions and other gath
 
 Our meetups would not be possible without our [amazing speakers](/speakers).
 
-Please note that everyone on our meetups is expected act in accordance with the [Code of Conduct](/code-of-conduct) so we can build a community that is open and welcoming to everyone.
+Please note that everyone on our meetups is expected to act in accordance with the [Code of Conduct](/code-of-conduct) so we can build a community that is open and welcoming to everyone.

@@ -55,6 +55,18 @@ If you feel you have been falsely or unfairly accused of violating this Code of 
 
 We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues—online and in-person—as well as in all one-on-one communications pertaining to community business.
 
+## Contact information
+
+You can reach out to the organizers:
+
+Juha-Matti Santala, juhis@turkufrontend.fi, @juhis in Slack
+
+Teemu Mäntyharju, teemu@turkufrontend.fi, @t-mu in Slack
+
+Matias Kaskimies, matias@turkufrontend.fi, @msjkas in Slack
+
+---
+
 ## License and attribution
 
 This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/). It is based on the [Berlin Code of Conduct](https://berlincodeofconduct.org/).

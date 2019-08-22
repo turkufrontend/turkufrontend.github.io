@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{ site.title }}</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+        <script src="/js/main.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            {% include header.html %}
+            <section class="row content">
+                <div class="container codeofconduct">
+                    {{ content }}
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

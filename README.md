@@ -1,5 +1,7 @@
 # Website for turkufrontend.fi
 
+__This is the archived version of the old website. Saved for history but not used._
+
 In development
 
 ```
